@@ -93,6 +93,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    z-index: -1;
 }
 
 .b-parallax {
@@ -819,10 +820,12 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
+    z-index: -2;
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
+    z-index: -2;
 }
 
 @media (max-width: 1024px) {
